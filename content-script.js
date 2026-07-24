@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         Desviament - Proton Bus Mods
+// @namespace    https://github.com/Ago-Projects/desviament-protonbusmods
+// @version      1.0
+// @description  Direct download packages in protonbusmods.com
+// @author       Ago'Projects
+// @match        *://protonbusmods.com/*
+// @grant        none
+// ==/UserScript==
+
 // Extract the link ID
 function extractIdFromLink(href) {
   const regex = /\/download\/(\d+)\//;
